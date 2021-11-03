@@ -1,0 +1,65 @@
+@import url('http://fonts.cdnfonts.com/css/agency-fb');
+
+body{
+    font-family: agency-fb;
+    background-image: url("https://th.bing.com/th/id/R.ad094c32026b0433f1a2287fe30f1e90?rik=zDCpP62xeqAXmw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fDJ-Wallpaper-Image-Background-Computers.jpg&ehk=gc9wasg90MvsBeWMINuDyWt9BOxUdgIJqdswOiw8%2b3o%3d&risl=&pid=ImgRaw&r=0");
+    color: white;
+    text-align:center;
+}
+
+.head_part{
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 50px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.head_part_cont{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+#song_name_holder{
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 3%;
+    animation: slideInUp 1s 1;
+}
+
+video{
+    border: 10px double white;
+    border-radius: 20px;
+    width: 530px;
+    height: 400px;
+}
+
+@keyframes slideInUp {
+from {
+transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+visibility: visible;
+}
+
+to {
+transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+}
+
+canvas{
+    border: 10px double white;
+}
+
+@media screen and (min-width : 1920px) {
+    body{
+        background-image: url("https://th.bing.com/th/id/R.ad094c32026b0433f1a2287fe30f1e90?rik=zDCpP62xeqAXmw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fDJ-Wallpaper-Image-Background-Computers.jpg&ehk=gc9wasg90MvsBeWMINuDyWt9BOxUdgIJqdswOiw8%2b3o%3d&risl=&pid=ImgRaw&r=0");
+    }
+
+    video{
+        width: 1000px;
+        height: 750px;
+    }
+}
